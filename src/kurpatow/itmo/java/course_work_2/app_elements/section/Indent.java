@@ -3,8 +3,8 @@ package kurpatow.itmo.java.course_work_2.app_elements.section;
 public class Indent {
     private String heading;
     private String text;
-    private String firstTextBox;
-    private String secondTextBox;
+    private String firstText;
+    private String secondText;
     Indent firstReply;
     Indent secondReply;
 
@@ -12,11 +12,11 @@ public class Indent {
         setHeading(heading);
         setText(text);
     }
-    protected Indent(String heading, String text, String firstTextBox, String secondTextBox) {
+    protected Indent(String heading, String text, String firstReply, String secondReply) {
         setHeading(heading);
         setText(text);
-        setFirstTextBox(firstTextBox);
-        setSecondTextBox(secondTextBox);
+        setFirstText(firstReply);
+        setSecondText(secondReply);
     }
 
     public String getHeading() {return heading;}
@@ -34,11 +34,11 @@ public class Indent {
         this.text = text;
     }
 
-    public String getFirstTextBox() {return firstTextBox;}
-    public void setFirstTextBox(String firstTextBox) {this.firstTextBox = firstTextBox;}
+    public String getFirstText() {return firstText;}
+    public void setFirstText(String firstText) {this.firstText = firstText;}
 
-    public String getSecondTextBox() {return secondTextBox;}
-    public void setSecondTextBox(String secondTextBox) {this.secondTextBox = secondTextBox;}
+    public String getSecondText() {return secondText;}
+    public void setSecondText(String secondText) {this.secondText = secondText;}
 
     public Indent getFirstReply() {return firstReply;}
     public void setFirstReply(Indent firstReply) {this.firstReply = firstReply;}

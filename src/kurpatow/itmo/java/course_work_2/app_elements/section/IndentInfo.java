@@ -29,7 +29,7 @@ public final class IndentInfo {
     public final static String GO_TO_SEARCH_FIRST_REPLY = "Попытаться разузнать о Бельчонке у лесных жителей";
     public final static String GO_TO_SEARCH_SECOND_REPLY = "Искать Бельчонка в одиночку";
 
-    // Абзац "Разнюхать о Белочке"
+    // Абзац "Разнюхать о Белочке у жителей"
     public final static String ASK_FOREST_DWELLERS_HEADING = "Попытаться разузнать о Бельчонке у лесных жителей";
     public final static String ASK_FOREST_DWELLERS_TEXT = "Пока Лисёнок принимал решение, лесные жители разошлись кто " +
             "куда.\nОстались только Сова и Волк. Но у Совы бывают проблемы с памятью, а " +
