@@ -92,7 +92,6 @@ public class IndentUtils {
         indents.add(relax);
         indents.add(takeHoneyToBear);
     }
-
     public static Indent getIndentHeading(String heading) {
         return indents.stream().filter(indent -> heading.equals(indent.getHeading())).findFirst().get();
     }
