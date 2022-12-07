@@ -29,6 +29,7 @@ public class Indent {
     public void printText() {
         System.out.println(text);
     }
+
     public void setText(String text) {
         if (text == null) throw new IllegalArgumentException("Поле Text не должно быть пустым");
         this.text = text;

@@ -3,7 +3,9 @@ package kurpatow.itmo.java.course_work_2.app_elements.section;
 public final class IndentInfo {
 
     private IndentInfo() {}
+
     public final static int NUMBER_OF_INDENTS = 13;
+
     //Абзац "Вступление"
     public final static String FOX_HEADING = "Лисёнок";
     public final static String FOX_TEXT = "Каждое утро Лисёнок просыпался, завтракал и шёл увидеться с Бельчонком. " +
