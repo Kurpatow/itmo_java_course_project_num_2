@@ -7,9 +7,7 @@ public class IndentUtils {
 
     private IndentUtils() {}
 
-    static {
-        indentsInitialization();
-    }
+    static {indentsInitialization();}
 
     private static void indentsInitialization() {
         indents = new HashSet<>(IndentInfo.NUMBER_OF_INDENTS);
