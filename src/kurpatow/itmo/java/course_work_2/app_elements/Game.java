@@ -13,7 +13,7 @@ import java.io.FileNotFoundException;
 
 public class Game {
     private Indent currentIndent;
-    private IOOperations<String> gameProgressHandler;
+    private final IOOperations<String> gameProgressHandler;
 
     public Game() {
         gameProgressHandler = new IOOperations<>();
