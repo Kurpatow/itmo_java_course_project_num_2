@@ -18,7 +18,7 @@ public class IndentUtils {
         Indent comeBackHome = new Indent(IndentInfo.COME_BACK_HOME_HEADING,IndentInfo.COME_BACK_HOME_TEXT);
 
         Indent goToSearch = new Indent(IndentInfo.GO_TO_SEARCH_HEADING, IndentInfo.GO_TO_SEARCH_TEXT,
-                IndentInfo.GET_HONEY_FIRST_REPLY, IndentInfo.GO_TO_SEARCH_SECOND_REPLY);
+                IndentInfo.GO_TO_SEARCH_FIRST_REPLY, IndentInfo.GO_TO_SEARCH_SECOND_REPLY);
 
         Indent askForestDwellers = new Indent(IndentInfo.ASK_FOREST_DWELLERS_HEADING,
                 IndentInfo.ASK_FOREST_DWELLERS_TEXT,
