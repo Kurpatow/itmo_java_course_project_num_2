@@ -34,6 +34,7 @@ public class StartMenu extends BaseMenu {
 
     @Override
     protected void getUserReply() {
+
         int userCommandNumber = getUserCommandNumber();
 
         switch (userCommandNumber) {

@@ -9,6 +9,7 @@ public class StartNewGameCommand extends BaseCommand {
 
     @Override
     public void execute() {
+
         game.startNewGame();
     }
 }

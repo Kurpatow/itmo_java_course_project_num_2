@@ -9,6 +9,7 @@ public class LoadCommand extends BaseCommand {
 
     @Override
     public void execute() {
+
         game.loadGame();
     }
 }

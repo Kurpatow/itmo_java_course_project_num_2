@@ -9,6 +9,7 @@ public class ExitCommand extends BaseCommand {
 
     @Override
     public void execute() {
+
         game.exit();
     }
 }

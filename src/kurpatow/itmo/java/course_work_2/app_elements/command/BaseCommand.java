@@ -11,7 +11,7 @@ public abstract class BaseCommand implements MenuCommand {
 
     private void setGame(Game game) {
         if (game == null) throw new IllegalArgumentException(
-                "В конструктор класса BaseCommand передан объект Game со значением null.");
+                "В конструктор BaseCommand передан объект Game со значением null.");
         this.game = game;
     }
 }

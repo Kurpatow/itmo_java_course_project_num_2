@@ -49,6 +49,7 @@ public class MenuWithIndent extends BaseMenu {
 
     @Override
     public void getUserReply() {
+
         int userCommandNumber = getUserCommandNumber();
 
         switch (userCommandNumber) {

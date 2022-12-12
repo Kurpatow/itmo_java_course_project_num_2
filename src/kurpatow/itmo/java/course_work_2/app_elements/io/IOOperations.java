@@ -19,9 +19,9 @@ public class IOOperations<T> {
         ObjectInputStream objectInputStream = new ObjectInputStream(fileInputStream)
         ){
             result = objectInputStream.readObject();
-        } catch (FileNotFoundException e) {
+        }catch (FileNotFoundException e) {
             throw new FileNotFoundException();
-        } catch (IOException | ClassNotFoundException e) {
+        }catch (IOException | ClassNotFoundException e) {
             throw new RuntimeException(e);
         }
         return (T) result;
@@ -32,7 +32,7 @@ public class IOOperations<T> {
         ObjectOutputStream objectOutputStream = new ObjectOutputStream(fileOutputStream)
         ){
             objectOutputStream.writeObject(object);
-        } catch (IOException e) {
+        }catch (IOException e) {
             throw new RuntimeException(e);
         }
     }

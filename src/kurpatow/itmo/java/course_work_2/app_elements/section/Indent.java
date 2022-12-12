@@ -12,6 +12,7 @@ public class Indent {
         setHeading(heading);
         setText(text);
     }
+
     protected Indent(String heading, String text, String firstReply, String secondReply) {
         setHeading(heading);
         setText(text);

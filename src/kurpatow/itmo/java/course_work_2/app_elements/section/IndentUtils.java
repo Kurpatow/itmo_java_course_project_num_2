@@ -3,6 +3,7 @@ package kurpatow.itmo.java.course_work_2.app_elements.section;
 import java.util.HashSet;
 
 public class IndentUtils {
+
     private static HashSet<Indent> indents;
 
     private IndentUtils() {}
@@ -10,6 +11,7 @@ public class IndentUtils {
     static {indentsInitialization();}
 
     private static void indentsInitialization() {
+
         indents = new HashSet<>(IndentInfo.NUMBER_OF_INDENTS);
 
         Indent fox = new Indent(IndentInfo.FOX_HEADING, IndentInfo.FOX_TEXT,
@@ -90,6 +92,7 @@ public class IndentUtils {
         indents.add(relax);
         indents.add(takeHoneyToBear);
     }
+
     public static Indent getIndentHeading(String heading) {
         return indents.stream().filter(indent -> heading.equals(indent.getHeading())).findFirst().get();
     }

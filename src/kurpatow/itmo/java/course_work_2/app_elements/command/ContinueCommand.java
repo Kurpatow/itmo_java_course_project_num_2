@@ -10,6 +10,7 @@ public class ContinueCommand extends BaseCommand implements MenuCommand {
 
     @Override
     public void execute() {
+
         game.continueGame();
     }
 }

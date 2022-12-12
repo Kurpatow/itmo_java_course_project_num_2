@@ -9,6 +9,7 @@ public class FirstIndentCommand extends BaseCommand {
 
     @Override
     public void execute() {
+
         game.nextStep(game.getCurrentIndent().getFirstReply());
     }
 }

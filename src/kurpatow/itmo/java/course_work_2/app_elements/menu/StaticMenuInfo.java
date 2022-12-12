@@ -1,7 +1,9 @@
 package kurpatow.itmo.java.course_work_2.app_elements.menu;
 
 public final class StaticMenuInfo {
+
     private StaticMenuInfo() {}
+
     static String START_MENU_TEXT =
             "1. Начать новую игру \n" +
             "2. Загрузить игру \n" +

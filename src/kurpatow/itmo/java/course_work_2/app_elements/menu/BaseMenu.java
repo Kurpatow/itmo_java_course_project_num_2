@@ -39,6 +39,7 @@ public abstract class BaseMenu {
     }
 
     abstract void getUserReply();
+
     public void showAndRun() {
         printText();
         getUserReply();

@@ -15,9 +15,7 @@ public class Game {
     private Indent currentIndent;
     private final IOOperations<String> gameProgressHandler;
 
-    public Game() {
-        gameProgressHandler = new IOOperations<>();
-    }
+    public Game() { gameProgressHandler = new IOOperations<>(); }
 
     private void setCurrentIndent(Indent indent) {
         currentIndent = indent;
